@@ -1,1 +1,20 @@
-<p>list works!</p>
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Salary</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <th scope="row">{{user.id}}</th>
+            <td>{{user.name}}</td>
+            <td>{{user.city}}</td>
+            <td>{{user.salary}}</td>
+        </tr>
+    </tbody>
+</table>
+  
+ 
