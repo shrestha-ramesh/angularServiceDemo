@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserService } from './user.service';
 import { ListComponent } from './list/list.component';
+import { PipesdemoComponent } from './pipesdemo/pipesdemo.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ListComponent
+    ListComponent,
+    PipesdemoComponent
   ],
   imports: [
     BrowserModule,
