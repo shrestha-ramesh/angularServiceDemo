@@ -10,9 +10,9 @@
     <tbody>
         <tr *ngFor="let user of users">
             <th scope="row">{{user.id}}</th>
-            <td>{{user.name}}</td>
+            <td>{{user.name | uppercase}}</td>
             <td>{{user.city}}</td>
-            <td>{{user.salary}}</td>
+            <td>{{user.salary | currency}}</td>
         </tr>
     </tbody>
 </table>
